@@ -14,6 +14,9 @@
 		FCD12C051CA9BD6F0073D46A /* RottenMangoes___The_Sequel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD12C031CA9BD6F0073D46A /* RottenMangoes___The_Sequel.xcdatamodeld */; };
 		FCD12C071CA9BD6F0073D46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD12C061CA9BD6F0073D46A /* Assets.xcassets */; };
 		FCD12C0A1CA9BD6F0073D46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD12C081CA9BD6F0073D46A /* LaunchScreen.storyboard */; };
+		FCD12C131CA9BDD30073D46A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD12C121CA9BDD30073D46A /* DetailViewController.m */; };
+		FCD12C161CA9BDEF0073D46A /* Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD12C151CA9BDEF0073D46A /* Movies.m */; };
+		FCD12C191CA9BE3E0073D46A /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD12C181CA9BE3E0073D46A /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		FCD12C061CA9BD6F0073D46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD12C091CA9BD6F0073D46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD12C0B1CA9BD6F0073D46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD12C111CA9BDD30073D46A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		FCD12C121CA9BDD30073D46A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		FCD12C141CA9BDEF0073D46A /* Movies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movies.h; sourceTree = "<group>"; };
+		FCD12C151CA9BDEF0073D46A /* Movies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movies.m; sourceTree = "<group>"; };
+		FCD12C171CA9BE3E0073D46A /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		FCD12C181CA9BE3E0073D46A /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 				FCD12BFB1CA9BD6F0073D46A /* AppDelegate.m */,
 				FCD12BFD1CA9BD6F0073D46A /* ViewController.h */,
 				FCD12BFE1CA9BD6F0073D46A /* ViewController.m */,
+				FCD12C111CA9BDD30073D46A /* DetailViewController.h */,
+				FCD12C121CA9BDD30073D46A /* DetailViewController.m */,
+				FCD12C141CA9BDEF0073D46A /* Movies.h */,
+				FCD12C151CA9BDEF0073D46A /* Movies.m */,
+				FCD12C171CA9BE3E0073D46A /* CustomCollectionViewCell.h */,
+				FCD12C181CA9BE3E0073D46A /* CustomCollectionViewCell.m */,
 				FCD12C001CA9BD6F0073D46A /* Main.storyboard */,
 				FCD12C061CA9BD6F0073D46A /* Assets.xcassets */,
 				FCD12C081CA9BD6F0073D46A /* LaunchScreen.storyboard */,
@@ -153,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD12C161CA9BDEF0073D46A /* Movies.m in Sources */,
+				FCD12C131CA9BDD30073D46A /* DetailViewController.m in Sources */,
 				FCD12BFF1CA9BD6F0073D46A /* ViewController.m in Sources */,
 				FCD12C051CA9BD6F0073D46A /* RottenMangoes___The_Sequel.xcdatamodeld in Sources */,
+				FCD12C191CA9BE3E0073D46A /* CustomCollectionViewCell.m in Sources */,
 				FCD12BFC1CA9BD6F0073D46A /* AppDelegate.m in Sources */,
 				FCD12BF91CA9BD6F0073D46A /* main.m in Sources */,
 			);
